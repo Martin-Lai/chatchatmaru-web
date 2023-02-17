@@ -1,0 +1,109 @@
+.container{
+    width:1920px;
+    max-width: 100%;
+    position: relative;
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    border-top: 3.12vw solid #ff000000;
+    border-left: 50vw solid #000000;
+    border-right: 50vw solid #000000;
+}
+
+.bgSet{
+    position: relative;
+    width: 100%;
+    padding-bottom: 44.79%;
+    background-size: cover; 
+    background-position: center;  
+    background: url(../../images/home_bg_pc.jpg) no-repeat center center/100% auto;  
+}
+
+.logo{   
+    width: 15.38vw;
+    height: 2.5vw;
+
+    position: absolute;
+    top: 0.83vw;
+    left: 13.54vw;
+
+    background: url(../../images/logo.svg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.txtArea{
+    position: absolute;
+    top: 16.66vw;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.txt1{
+    height: 2.5vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2.08vw;
+    line-height: 2.5vw;
+
+    color: #000000;
+}
+
+.txt2{
+    height: 6.04vw;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 5vw;
+    line-height: 6.04vw;
+
+    color: #1EA1F5;
+}
+
+.txt3{
+    height: 2.5vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2.08vw;
+    line-height: 2.5vw;
+    text-align: right;
+
+    color: #000000;
+}
+
+.tryBtn{
+    width: 10.72vw;
+    height: 1.82vw;
+
+    background-color: #1EA1F5;
+    border-radius: 32px;
+
+    position: absolute;
+    bottom: 6.51vw;
+    left: 50%;
+    transform: translateX(-50%);    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.115em;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./global.css";
+import HomeSection from './component/HomeSection';
 
 function App() {
   return (
-    <div className="App">
-        <div>Hello from feature/homeSection branch</div>
+    <div>
+        <HomeSection/>
     </div>
   );
 }
