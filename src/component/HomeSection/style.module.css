@@ -107,3 +107,54 @@
 
     cursor: pointer;
 }
+
+@media (max-width: 541px) {
+
+    .bgSet{
+        width: 100%;
+        padding-bottom: 216.42%;
+        background-size: cover; 
+        background-position: center;  
+        background: url(../../images/home_bg_phone.jpg) no-repeat center center/100% auto;  
+    }
+
+    .logo{   
+        width: 147.69px;
+        height: 24px;
+    
+        top: 28px;
+        left: 24px;
+    }
+
+    .txtArea{
+        top: 71.73vw;
+        width: 370px;
+        max-width: 89.37%;
+    }
+
+    .txt1, .txt3{
+        height: 27px;
+    
+        font-size: 22px;
+        line-height: 27px;    
+    }
+
+    .txt2{        
+        height: 154px;
+
+        overflow-wrap: break-word;
+
+        font-size: 64px;
+        line-height: 77px;    
+    }
+
+    .tryBtn{
+        width: 150px;
+        height: 35px;
+    
+        bottom: 50.24vw; 
+
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+}
