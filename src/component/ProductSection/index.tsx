@@ -14,7 +14,7 @@ const ProductSection = () => {
         <section className={style.container}>
             <div className={style.txt1}>Empowering companies to stand out with customer experience</div>
             <div className={style.txt2}>Create an efficient and intelligent environment, realize agile operations, and form a new way of working</div>
-            {/* <div className={style.comicGrid}>
+            <div className={style.comicGrid}>
                 <div className={`${style.panel_1} ${style.panelItem}`}>
                     <h2>AI SMARTER CUSTOMER SERVICE</h2>
                     <div>We offered realtime AI chatbot for answering all questions from your potential customers, collecting the customer informations, and exporting as a dashboard backend.</div>
@@ -39,8 +39,7 @@ const ProductSection = () => {
                     <h2>ADVERTISING DRAINAGE SERVICE</h2>
                     <div>Create an efficient and intelligent environment, realize agile operations, and form a new way of working</div>
                 </div>
-            </div> */}
-            <div className={style.txt3}>If you wants to get more information by Chatchatmaru, please <span>contact us</span></div>           
+            </div>          
             <Swiper
                 spaceBetween={30}
                 autoplay={{
@@ -51,7 +50,7 @@ const ProductSection = () => {
                     clickable: true,
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
-                className= {style.comicGrid}
+                className= {style.forSwiper}
             >
                 <SwiperSlide>
                     <div className={`${style.panel_1} ${style.panelItem}`}>
@@ -82,6 +81,7 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
             </Swiper>
+            <div className={style.txt3}>If you wants to get more information by Chatchatmaru, please <span>contact us</span></div> 
         </section>             
     );
 };

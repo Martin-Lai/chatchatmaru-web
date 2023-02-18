@@ -8,3 +8,19 @@
 a{
     text-decoration: none;
 }
+
+.swiper-button-next, 
+.swiper-button-prev{
+  display: none !important;
+}
+
+.swiper-pagination-bullet{
+    background: #ffffff !important;
+    margin-left: 16px !important;
+    width: 16px !important;
+    height: 16px !important; 
+}
+.swiper-pagination-bullet-active{
+    background: #1EA1F5 !important;
+}
+  

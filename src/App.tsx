@@ -6,7 +6,7 @@ import ProductSection from './component/ProductSection';
 function App() {
 
   return (
-    <div>
+    <div style={{overflowX: "hidden"}}>
       <HomeSection />
       <ProductSection />
     </div>
