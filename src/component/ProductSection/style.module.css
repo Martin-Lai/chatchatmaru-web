@@ -1,0 +1,147 @@
+.container{
+    width: 1920px;
+    max-width: 100%;
+    height: 1480px;
+    background: rgb(0, 0, 0);
+}
+
+.txt1{
+    /* border: red solid 1px; */
+    height: 29px;
+    margin-top: 144px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.115em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.txt2{
+    height: 18px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.115em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.txt3{
+    height: 19px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.115em;
+    color: #FFFFFF;
+}
+
+.txt3 span{
+    color: #1EA1F5;
+}
+
+.comicGrid{
+    width: 926px;
+    height: 1052px;
+    margin: 60px auto;
+    display: grid;
+    
+    grid-template-areas:    
+      'p1  p1  p2'
+      'p1  p1  p2'
+      'p3  p4  p4'
+      'p3  p5  p5';
+    gap: 20px;  
+}
+
+.panelItem{
+    position: relative;
+    border: 2px solid #FFFFFF;
+    overflow: hidden;
+}
+
+.panel_1 { grid-area: p1; width: 571px;  height:461px;  background-color: #333333;}
+.panel_2 { grid-area: p2; width: 335px;  height:461px;  background-color: #262626;}
+.panel_3 { grid-area: p3; width: 335px;  height:571px;  background-color: #191919;}
+.panel_4 { grid-area: p4; width: 571px;  height:335px;  background-color: #404040;}
+.panel_5 { grid-area: p5; width: 571px;  height:216px;  background-color: #262626;}
+
+h2{
+margin: 46px 0 0 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 23px;
+
+letter-spacing: 0.115em;
+
+color: #FFFFFF;
+}
+
+.panelItem div{
+    margin: 24px 0 0 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.115em;
+
+    color: #FFFFFF;
+}
+
+.panelItem img{
+    position: absolute;
+}
+
+.panel_1 div, .panel_5 div{
+    width: 491px;
+}
+
+.panel_2 div, .panel_3 div{
+    width: 255px;
+}
+
+.panel_4 div{
+    width: 237px;
+}
+
+.panel_1 img{
+    top: 191px;
+    left: 135px;
+}
+
+.panel_2 img{
+    top: 225px;
+    left: 51px;
+}
+
+.panel_3 img{
+    top: 319px;
+    left: 79px;
+}
+
+.panel_4 img{
+    top: 110px;
+    left: 317px;
+}
+
+
+@media (max-width:541px) {
+    .panelItem{
+        width: 335px;
+        height: 461px;
+    }
+}
