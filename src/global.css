@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+#mainContainer{
+    overflow-x: hidden;
 }
 
 .swiper-button-next, 

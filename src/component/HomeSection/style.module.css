@@ -8,7 +8,8 @@
     content: '';
     position: absolute;
     bottom: 0px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     border-top: 3.12vw solid #ff000000;
     border-left: 50vw solid #000000;
     border-right: 50vw solid #000000;
