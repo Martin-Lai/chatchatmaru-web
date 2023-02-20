@@ -4,6 +4,20 @@
     height: 1480px;
     background: rgb(0, 0, 0);
     padding-top: 144px;
+    position: relative;
+}
+
+.container::after{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 3.12vw solid #ff000000;
+    border-left: 50vw solid #ffffff;
+    border-right: 50vw solid #ffffff;
 }
 
 .txt1 {
@@ -51,7 +65,7 @@
 .comicGrid {
     width: 926px;
     height: 1052px;
-    margin: 60px auto;
+    margin: 60px auto 0 auto;
     display: grid;
 
     grid-template-areas:
