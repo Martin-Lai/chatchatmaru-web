@@ -1,0 +1,22 @@
+.container{
+    height: 338px;
+    width: 100%;
+}
+
+.flex_col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.flex_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 411px;
+    padding: 28px 0;
+    font-weight: 700;
+}
