@@ -4,7 +4,9 @@ const HomeSection = () => {
     return(
         <section className={style.container}>
             <div className={style.bgSet}>
-                <div className={style.logo}></div>
+                <div className={style.logoArea}>
+                    <div className={style.logo}></div>
+                </div>               
                 <div className={style.txtArea}>
                     <div className={style.txt1}>smarter your customer service</div>
                     <div className={style.txt2}>CHATCHATMARU</div>
