@@ -143,6 +143,10 @@ h2 {
     color: #FFFFFF;
 }
 
+.panel_3 h2{
+    width: 290px;
+}
+
 .panelItem div {
     margin: 24px 0 0 40px;
 
@@ -243,6 +247,10 @@ h2 {
 
     h2 {
         line-height: 23px;
+    }
+
+    .panel_1 h2{
+        width: 290px;
     }
 
     .panel_1 img {
