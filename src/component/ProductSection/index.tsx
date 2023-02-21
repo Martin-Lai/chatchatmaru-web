@@ -48,7 +48,7 @@ const ProductSection = forwardRef<HTMLDivElement, ProductSectionProps>((props, r
             <Swiper
                 spaceBetween={30}
                 autoplay={{
-                    delay: 2500,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 pagination={{
