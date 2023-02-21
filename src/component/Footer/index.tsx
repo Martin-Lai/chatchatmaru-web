@@ -13,14 +13,14 @@ const Footer = (props:FooterProps) => {
         <div className={style.container}>
             <div className={style.flex_col}>
                 <img src={logo} alt="logo" />
-                <div style={{paddingTop:'18px'}}>©chatchatmaru.com</div>
+                <div className={style.siteUrl}>©chatchatmaru.com</div>
                 <div className={style.flex_row}>               
                     <button onClick={props.goToHome}>Home</button>
                     <button onClick={props.goToProduct}>Product</button>
                     <button onClick={props.goToSpecial}>Special</button>
                     <button onClick={props.goToContactUs}>Contant Us</button>
                 </div>
-                <div style={{textAlign:'center'}}>Copyright © 2023 Chatchatmaru. All rights reserved.</div>
+                <div className={style.copyRight}>Copyright © 2023 Chatchatmaru. All rights reserved.</div>
             </div>
         </div>
     );

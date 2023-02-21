@@ -11,6 +11,16 @@
     padding-top: 100px;
 }
 
+.siteUrl{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #444444;
+    padding-top: 18px;
+}
+
 .flex_row{
     display: flex;
     justify-content: space-between;
@@ -31,8 +41,28 @@
     cursor: pointer;
 }
 
+.copyRight{
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.115em;
+    color: #000000;
+}
+
 @media (max-width:450px){
     .flex_row{
         width: 327px;
+    }
+
+    .copyRight{
+        letter-spacing: 0;
     }
 }

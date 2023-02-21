@@ -31,6 +31,11 @@ form{
     width: 926px;
 }
 
+.inputTitle{
+    font-family:"Inter";
+    font-weight:500;
+}
+
 input{
     width: 100%;
     background-color: #444444;
@@ -87,9 +92,30 @@ input::placeholder,textarea::placeholder{
     margin-top: 52px;
 }
 
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.115em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 .text{
     text-align: center;
     margin: 20px 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.115em;
 }
 
 @media (max-width:950px){
