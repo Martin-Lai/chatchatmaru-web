@@ -1,8 +1,9 @@
+import { forwardRef } from "react";
 import style from "./style.module.css"
 
-const Contact = () => {
+const Contact = forwardRef<HTMLDivElement>((props, ref) => {
     return(
-        <div className={style.container}>
+        <div className={style.container} ref={ref}>
             <div className={style.flex_col}>
                 <div style={{fontSize:'24px',fontWeight:'600'}}>Contact us for more information</div>
                 <div className={style.text}>Please left your e-mail and question, we will contact you as soon as possible</div>
@@ -19,6 +20,6 @@ const Contact = () => {
             </div>
         </div>
     );
-};
+});
 
 export default Contact;
