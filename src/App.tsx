@@ -15,8 +15,8 @@ function App() {
   };
   return (
     <div id={'mainContainer'}>
-      <HomeSection ref={homeRef}  goToContactUs={()=>{goToSection(homeRef.current)}}/>
-      <ProductSection ref={productRef} goToContactUs={()=>{goToSection(homeRef.current)}}/>
+      <HomeSection ref={homeRef}  goToContactUs={()=>{goToSection(specialRef.current)}}/>
+      <ProductSection ref={productRef} goToContactUs={()=>{goToSection(specialRef.current)}}/>
       <SpecialSection ref={specialRef}/>
     </div>
   );

@@ -7,7 +7,7 @@ interface HomesectionProps {
 
 const HomeSection = forwardRef<HTMLDivElement, HomesectionProps>((props, ref) => {
     return(
-        <section className={style.container}>
+        <section className={style.container}  ref={ref}>
             <div className={style.bgSet}>
                 <div className={style.logoArea}>
                     <div className={style.logo}></div>
