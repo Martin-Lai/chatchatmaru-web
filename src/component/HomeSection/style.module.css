@@ -24,7 +24,7 @@
     padding-bottom: 860px;
     background-size: cover; 
     background-position: center;  
-    background: url(../../images/home_bg_pc.jpg) no-repeat center center/1920px auto;  
+    background: url(../../images/home_bg_pc.webp) no-repeat center center/1920px auto;  
 }
 
 .logoArea{
@@ -133,7 +133,7 @@
         padding-bottom: 896px;
         background-size: cover; 
         background-position: center;  
-        background: url(../../images/home_bg_phone.jpg) no-repeat center center/414px auto;  
+        background: url(../../images/home_bg_phone.webp) no-repeat center center/414px auto;  
     }
 
     .logoArea{

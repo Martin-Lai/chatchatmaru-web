@@ -53,7 +53,7 @@
 .image{
     width: 1082.05px;
     height: 309.79px;
-    background: url(../../images/special_img_pc.png) no-repeat center center / 100% auto;
+    background: url(../../images/special_img_pc.webp) no-repeat center center / 100% auto;
     margin: 120px auto 0 auto;
 }
 
@@ -76,7 +76,7 @@
     .image{
         width: 207px;
         height: 420px;
-        background: url(../../images/special_img_phone.png) no-repeat center center / 100% auto;
+        background: url(../../images/special_img_phone.webp) no-repeat center center / 100% auto;
         margin: 60px auto 0 auto;
     }
 }

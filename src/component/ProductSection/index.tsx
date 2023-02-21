@@ -4,10 +4,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import style from "./style.module.css";
-import robot1 from "../../images/robot_1.png";
-import robot2 from "../../images/robot_2.png";
-import robot3 from "../../images/robot_3.png";
-import robot4 from "../../images/robot_4.png";
+import robot1 from "../../images/robot_1.webp";
+import robot2 from "../../images/robot_2.webp";
+import robot3 from "../../images/robot_3.webp";
+import robot4 from "../../images/robot_4.webp";
 import { forwardRef } from "react";
 
 interface ProductSectionProps {
