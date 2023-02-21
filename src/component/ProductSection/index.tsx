@@ -8,10 +8,15 @@ import robot1 from "../../images/robot_1.png";
 import robot2 from "../../images/robot_2.png";
 import robot3 from "../../images/robot_3.png";
 import robot4 from "../../images/robot_4.png";
+import { forwardRef } from "react";
 
-const ProductSection = () => {
-    return(
-        <section className={style.container}>
+interface ProductSectionProps {
+    goToContactUs: () => void
+}
+
+const ProductSection = forwardRef<HTMLDivElement, ProductSectionProps>((props, ref) => {
+    return (
+        <section className={style.container} ref={ref}>
             <div className={style.txt1}>Empowering companies to stand out with customer experience</div>
             <div className={style.txt2}>Create an efficient and intelligent environment, realize agile operations, and form a new way of working</div>
             <div className={style.comicGrid}>
@@ -39,7 +44,7 @@ const ProductSection = () => {
                     <h2>ADVERTISING DRAINAGE SERVICE</h2>
                     <div>Create an efficient and intelligent environment, realize agile operations, and form a new way of working</div>
                 </div>
-            </div>          
+            </div>
             <Swiper
                 spaceBetween={30}
                 autoplay={{
@@ -50,7 +55,7 @@ const ProductSection = () => {
                     clickable: true,
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
-                className= {style.forSwiper}
+                className={style.forSwiper}
             >
                 <SwiperSlide>
                     <div className={`${style.panel_1} ${style.panelItem}`}>
@@ -81,9 +86,12 @@ const ProductSection = () => {
                     </div>
                 </SwiperSlide>
             </Swiper>
-            <div className={style.txt3}>If you wants to get more information by Chatchatmaru, please <span>contact us</span></div> 
-        </section>             
+            <div className={style.txt3}>If you wants to get more information by Chatchatmaru, please <span
+                onClick={props.goToContactUs}>contact us
+            </span></div>
+        </section>
+
     );
-};
+});
 
 export default ProductSection;
