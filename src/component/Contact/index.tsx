@@ -16,7 +16,7 @@ const Contact = forwardRef<HTMLDivElement>((props, ref) => {
                     <textarea placeholder="please describe your question or type what kind information you like to get more?"/>
                     
                 </form>
-                <div className={style.btn}>SEND</div>
+                <button className={style.btn}>SEND</button>
             </div>
         </div>
     );

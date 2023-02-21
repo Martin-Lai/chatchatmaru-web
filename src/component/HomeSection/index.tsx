@@ -17,10 +17,10 @@ const HomeSection = forwardRef<HTMLDivElement, HomesectionProps>((props, ref) =>
                     <div className={style.txt2}>CHATCHATMARU</div>
                     <div className={style.txt3}>your life assistant</div>   
                 </div> 
-                <div 
+                <button
                     className={style.tryBtn}
                     onClick={props.goToContactUs}
-                >TRY NOW</div>   
+                >TRY NOW</button>  
             </div>        
         </section>             
     );

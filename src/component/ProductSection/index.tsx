@@ -85,10 +85,10 @@ const ProductSection = forwardRef<HTMLDivElement, ProductSectionProps>((props, r
                         <img src={robot4} alt="robot_4_img" />
                     </div>
                 </SwiperSlide>
-            </Swiper>
-            <div className={style.txt3}>If you wants to get more information by Chatchatmaru, please <span
-                onClick={props.goToContactUs}>contact us
-            </span></div>
+            </Swiper>        
+            <div className={style.txt3}>If you wants to get more information by Chatchatmaru, please <button
+            onClick={props.goToContactUs}
+            >contact us</button></div>
         </section>
 
     );

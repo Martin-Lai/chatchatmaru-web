@@ -58,8 +58,20 @@
     color: #FFFFFF;
 }
 
-.txt3 span {
+.txt3 button{
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 19px;
+    cursor: pointer;
+    letter-spacing: 0.05em;
     color: #1EA1F5;
+}
+
+.txt3 button:hover{
+    color: #57b7f3;
 }
 
 .comicGrid {

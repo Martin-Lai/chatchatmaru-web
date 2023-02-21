@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+button{
+    background: none;
+    border: none;
+}
+
 #mainContainer{
     overflow-x: hidden;
 }

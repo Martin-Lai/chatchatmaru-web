@@ -118,6 +118,14 @@
     cursor: pointer;
 }
 
+.tryBtn:hover{   
+    background-color: #1980c1;
+}
+
+.tryBtn:active{
+    bottom: 182px;
+}
+
 @media (max-width: 541px) {
 
     .bgSet{
@@ -169,5 +177,9 @@
 
         font-size: 16px;
         line-height: 19.36px;
+    }
+
+    .tryBtn:active{
+        bottom: 206px;
     }
 }
