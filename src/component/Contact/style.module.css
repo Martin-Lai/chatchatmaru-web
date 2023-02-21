@@ -38,6 +38,8 @@ input{
     padding: 12px 20px;
     border-radius: 6px;
     margin-bottom: 32px;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 textarea {
@@ -50,7 +52,15 @@ textarea {
     background-color: #444444;
     color: #ffffff;
     resize: none;
-  }
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+input::placeholder,textarea::placeholder{
+    font-size: 18px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+}
 
 .btn{
     margin-top: 50px;
@@ -61,16 +71,28 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+    margin: 20px 0;
 }
 
 @media (max-width:950px){
-    form{
+    form,.text{
         width: 600px;
     }
 }
 
 @media (max-width:650px){
-    form{
+    form,.text{
         width: 360px;
+    }
+}
+
+@media (max-width:375px){
+    form,.text{
+        width: 340px;
     }
 }
