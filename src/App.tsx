@@ -21,7 +21,7 @@ function App() {
       <HomeSection ref={homeRef}  goToContactUs={()=>{goToSection(contactRef.current)}}/>
       <ProductSection ref={productRef} goToContactUs={()=>{goToSection(contactRef.current)}}/>
       <SpecialSection ref={specialRef}/>
-      <Contact ref={contactRef}/>
+      <Contact ref={contactRef}  goToContactUs={()=>{goToSection(contactRef.current)}}/>
       <Footer 
         goToHome={()=>{goToSection(homeRef.current)}}
         goToProduct={()=>{goToSection(productRef.current)}}

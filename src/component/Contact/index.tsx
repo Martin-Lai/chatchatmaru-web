@@ -1,7 +1,11 @@
 import { forwardRef } from "react";
 import style from "./style.module.css"
 
-const Contact = forwardRef<HTMLDivElement>((props, ref) => {
+interface ContactProps{
+    goToContactUs: ()=>void
+}
+
+const Contact = forwardRef<HTMLDivElement, ContactProps>((props, ref) => {
     return(
         <div className={style.container} ref={ref}>
             <div className={style.flex_col}>
@@ -16,7 +20,10 @@ const Contact = forwardRef<HTMLDivElement>((props, ref) => {
                     <textarea placeholder="please describe your question or type what kind information you like to get more?"/>
                     
                 </form>
-                <button className={style.btn}>SEND</button>
+                <button 
+                    className={style.btn}
+                    onClick={props.goToContactUs}    
+                >SEND</button>
             </div>
         </div>
     );
