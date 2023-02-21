@@ -13,7 +13,7 @@ const Footer = () => {
                     <div>Special</div>
                     <div>Contant Us</div>
                 </div>
-                <div>Copyright © 2023 Chatchatmaru. All rights reserved.</div>
+                <div style={{textAlign:'center'}}>Copyright © 2023 Chatchatmaru. All rights reserved.</div>
             </div>
         </div>
     );

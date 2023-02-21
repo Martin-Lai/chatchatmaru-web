@@ -20,3 +20,9 @@
     padding: 28px 0;
     font-weight: 700;
 }
+
+@media (max-width:450px){
+    .flex_row{
+        width: 327px;
+    }
+}
