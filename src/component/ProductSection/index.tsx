@@ -31,7 +31,7 @@ const ProductSection = forwardRef<HTMLDivElement, ProductSectionProps>((props, r
                     <img src={robot2} alt="robot_2_img" />
                 </div>
                 <div className={`${style.panel_3} ${style.panelItem}`}>
-                    <h2>CUSTOMER SERVICE DASHBOARD</h2>
+                    <h2>CUSTOMER  <br/>  SERVICE DASHBOARD</h2>
                     <div>You can overview all customer informations, all data Chatchatmaru collected, and all dialogue made by Chatchatmaru anytime, Chatchatmaru is not only a cutomer service, but a data collector and dashboard.</div>
                     <img src={robot3} alt="robot_3_img" />
                 </div>
@@ -59,7 +59,7 @@ const ProductSection = forwardRef<HTMLDivElement, ProductSectionProps>((props, r
             >
                 <SwiperSlide>
                     <div className={`${style.panel_1} ${style.panelItem}`}>
-                        <h2>AI SMARTER CUSTOMER SERVICE</h2>
+                        <h2>AI SMARTER CUSTOMER <br/> SERVICE</h2>
                         <div>We offered realtime AI chatbot for answering all questions from your potential customers, collecting the customer informations, and exporting as a dashboard backend.</div>
                         <img src={robot1} alt="robot_1_img" />
                     </div>
@@ -73,7 +73,7 @@ const ProductSection = forwardRef<HTMLDivElement, ProductSectionProps>((props, r
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={`${style.panel_3} ${style.panelItem}`}>
-                        <h2>CUSTOMER SERVICE DASHBOARD</h2>
+                        <h2>CUSTOMER <br/> SERVICE DASHBOARD</h2>
                         <div>You can overview all customer informations, all data Chatchatmaru collected, and all dialogue made by Chatchatmaru anytime, Chatchatmaru is not only a cutomer service, but a data collector and dashboard.</div>
                         <img src={robot3} alt="robot_3_img" />
                     </div>
